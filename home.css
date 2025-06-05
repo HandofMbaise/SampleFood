@@ -1,0 +1,342 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    display: grid;
+    background: lime;
+    place-items: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s ease in;
+}
+
+nav ul a:hover{
+    background: green;
+    color: #e84343;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap: 30px;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    display: grid;
+}
+
+.user-status{
+  
+   left: 55em;
+   bottom: 33.5em;
+}
+
+#user-logo{
+   
+   color: #000;
+}
+
+#user-Id{
+  
+  top: 50px;
+  color: red;
+}
+
+.container{
+    background: lime;
+    text-align:  center;
+    padding: 15px 10px 15px 10px;
+    color: #000;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    text-shadow: 3px 3px 4px red;
+    text-transform: uppercase;
+}
+.container h3{
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px red;
+    text-transform: uppercase;
+}
+
+.nav{
+    background: #e84343;
+    place-items: center;
+}
+.nav ul{
+    list-style: none;
+}
+.nav ul a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    padding: 10px 10px;
+    transition: 0.2s ease-in;
+}
+.nav ul a:hover{
+    background: lime;
+    color: #e84343;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+.items img{
+    width: 90%;
+    height: 350px;
+    object-fit: center;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 2px 2px 2px;
+}
+.items img:hover{
+    transform: scale(1.04);
+}
+.items h4{
+    text-align: center;
+    padding: 5px 0;
+}
+.items h5{
+    text-align: center;
+}
+.items button{
+    padding: 2px 20px;
+    display: block;
+    margin: 0 auto;
+    background: lime;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+.items button:hover{
+    transform: scale(1.1)
+} 
+
+.items a{
+    text-decoration: none;
+}
+
+#order{
+    margin-top: 10%;
+    place-items: center;
+    height: 100vh;
+}
+
+#opening{
+    color: orange;
+    font-size: 30px;
+}
+#order h5{
+    color: red;
+    font-size: 15px;
+    padding: 5px 0 10px 0;
+}
+
+.table{
+  background-color: #000;
+}
+
+#tab2{
+   
+  position: relative;
+  top: 160px;
+}
+
+.tr3{
+    background: yellow;
+}
+
+.tr4{
+    background-color: lightblue;
+}
+
+#orderh{
+    color: orange;
+    position: relative;
+    top: 140px;
+}
+.tohome{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 3em;
+    background: purple;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    transition: 0.1s ease-out;
+}
+
+
+.tohome:hover{
+    background: red;
+}
+
+.tohome:active{
+    background: yellow;
+    transform: scale(1.04)
+}
+
+#order ~ a {
+    text-decoration: none;
+} 
+
+.tr1{
+    background: yellow;
+} *
+
+ .tr2{
+    background: lightblue;
+}
+
+#my-checkbox{
+    width: 60px;
+}
+
+@media screen and (max-width: 768px){
+
+.section{
+    position: relative;
+    text-align: center;
+    right: 0.8em;
+}
+
+#opening{
+    margin-left: 30px;
+}
+
+.table{
+    background-color: red;
+}
+
+#tab1{
+    position: relative;
+    left: 3.2em;
+}
+
+#order h5{
+    margin-left: 30px;
+}
+
+#orderh{
+   margin-left: 20px;
+}
+
+.tohome{
+    bottom: 5em;
+}
+
+#User{
+   position: relative;
+   top: 2em;
+   left: 5em;
+}
+
+
+
+};
+
+
+
+/* Basic website layout */
+
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(178, 180, 178);
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar{
+    background-color: #000;
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(178, 180, 178);
+    text-align: center;
+    padding: 20px;
+    padding: 25px;
+}
+
+@media screen and (max-width: 600px) { 
+    aside, section, article{
+        width: 100%;
+    }
+} */
